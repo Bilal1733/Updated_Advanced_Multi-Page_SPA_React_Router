@@ -1,5 +1,12 @@
+import { Fragment } from 'react';
+import EventForm from '../components/EventForm';
+
 function NewEventPage() {
-    return <h1>NewEventPage</h1>;
-  }
-  
-  export default NewEventPage;
+  return (
+    <Fragment>
+      <EventForm />
+    </Fragment>
+  );
+}
+
+export default NewEventPage;
